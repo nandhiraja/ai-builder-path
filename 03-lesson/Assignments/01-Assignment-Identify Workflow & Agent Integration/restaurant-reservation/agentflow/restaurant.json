@@ -1,0 +1,37 @@
+[
+    {
+        "table_id": 1,
+        "label": "Table 1",
+        "capacity": 2,
+        "location": "indoor",
+        "bookings": []
+    },
+    {
+        "table_id": 2,
+        "label": "Table 2",
+        "capacity": 4,
+        "location": "indoor",
+        "bookings": []
+    },
+    {
+        "table_id": 3,
+        "label": "Table 3",
+        "capacity": 6,
+        "location": "outdoor",
+        "bookings": [
+            {
+                "date": "2026-07-06",
+                "slot": "lunch",
+                "booked_by": "Nandhi",
+                "booked_time": "12:30"
+            }
+        ]
+    },
+    {
+        "table_id": 4,
+        "label": "Table 4",
+        "capacity": 8,
+        "location": "outdoor",
+        "bookings": []
+    }
+]
