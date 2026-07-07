@@ -1,0 +1,55 @@
+Document Title: Remote Work and AI Data Handling Policy
+
+1. Purpose
+This policy establishes the rules for employees who work remotely or use AI-enabled tools while performing company work. It is intended to protect company information, maintain productivity, and reduce legal, privacy, and compliance risks.
+
+2. Scope
+This policy applies to all employees, interns, contractors, consultants, and temporary staff who work outside company premises or use AI tools in connection with company business.
+
+3. Eligibility for Remote Work
+Remote work may be offered on a permanent, hybrid, temporary, or exceptional basis depending on business needs, role suitability, manager approval, and employee performance. Approval for remote work is not guaranteed and may be modified or withdrawn at any time based on operational needs.
+
+4. Work Availability
+Employees approved for remote work must remain reachable during agreed working hours. They must join meetings on time, monitor official communication channels, and respond to work-related messages within a reasonable period during the workday.
+
+5. Workspace Expectations
+Employees are expected to maintain a professional and reasonably secure work environment. The workspace should support concentration, confidentiality, and safe handling of company property and information.
+
+6. Use of Company Equipment
+Employees must use company-approved devices, accounts, software, and collaboration tools for official work wherever required. Company devices must be protected with passwords, screen locks, and any required security software. Employees must not install unauthorized software or disable security controls.
+
+7. Network and Security
+When working remotely, employees must use secure internet connections and follow all company security instructions, including VPN use where required. Public or shared networks should be avoided for confidential work unless approved safeguards are in place.
+
+8. Confidential Information
+Confidential company, employee, customer, partner, financial, legal, or operational information must not be disclosed to unauthorized persons. Printed documents, screenshots, downloaded files, and portable storage containing business information must be handled carefully and stored securely.
+
+9. Use of AI Tools
+Employees may use AI tools only for approved business purposes and in accordance with company policy, security guidance, and applicable law. AI-generated output must be reviewed by a human employee before being used for decisions, communication, code deployment, compliance interpretation, or customer-facing content.
+
+10. Prohibited AI Use
+Employees must not paste confidential, sensitive, regulated, proprietary, personal, or customer-identifiable data into public AI tools unless the tool has been explicitly approved by the company for such use. Employees must not use AI systems to bypass review controls, generate discriminatory content, create misleading records, or automate decisions that require human authorization.
+
+11. Data Classification
+Before entering any information into an AI tool, employees are responsible for determining whether the content is public, internal, confidential, or restricted. Restricted information must never be shared with unapproved external systems.
+
+12. AI Output Verification
+AI responses may be incomplete, outdated, or incorrect. Employees are responsible for validating outputs, checking important facts, and confirming that generated content aligns with company policies, legal requirements, and ethical standards.
+
+13. Intellectual Property and Ownership
+Work created by employees using approved company systems for company business remains company property to the extent permitted by law and contract. Employees must not upload copyrighted or third-party confidential material into tools without authorization.
+
+14. Monitoring and Audit
+The company may monitor usage of company systems, logs, and approved tools for security, compliance, and operational purposes in accordance with applicable law and internal practices.
+
+15. Performance Expectations
+Remote work does not change job expectations. Employees are still accountable for quality, deadlines, communication, responsiveness, collaboration, and compliance with company standards.
+
+16. Incident Reporting
+Employees must immediately report suspected data leakage, lost devices, unauthorized access, accidental disclosure, insecure AI usage, or any other security incident to the IT or security team and their manager.
+
+17. Policy Violations
+Violations of this policy may result in suspension of remote work privileges, restricted system access, disciplinary action, or termination of engagement depending on the seriousness of the violation.
+
+18. Questions and Exceptions
+Requests for policy clarification or exceptions must be raised with HR, the reporting manager, or the information security team before proceeding.
