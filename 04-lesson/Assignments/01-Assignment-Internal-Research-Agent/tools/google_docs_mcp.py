@@ -5,7 +5,7 @@ async def load_google_docs_mcp_tools():
     client = MultiServerMCPClient(
         {
             "googledocs": {
-                "transport": "http",
+                "transport": "sse",
                 "url": os.getenv("GOOGLE_DOCS_MCP_URL"),
             }
         }
