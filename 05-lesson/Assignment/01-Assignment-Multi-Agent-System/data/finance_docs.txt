@@ -1,0 +1,20 @@
+=== FINANCE DEPARTMENT DOCUMENTATION ===
+
+[REIMBURSEMENT FILING POLICY]
+To file a reimbursement claim at Presidio:
+1. Log into the Expense Portal at expense.presidio.com.
+2. Create a new expense report and select the matching categories (e.g. Travel, Business Meals, Home Office Setup).
+3. Upload itemized receipts for all expenses exceeding $25. Credit card statements are not accepted as itemized receipts.
+4. Submit the report. Claims are reviewed by the Finance Audit team. Approved reimbursements are paid out via direct deposit.
+
+[BUDGET REPORTS]
+All monthly and quarterly budget reports are stored securely in the Finance Shared Drive.
+Path: Shared Drives > Finance-Archive > FY2026 > Budget-Reports
+Access requires a Finance department profile or manager authorization. If you require temp access, submit a request via access.presidio.com.
+
+[PAYROLL PROCESSING SCHEDULE]
+Presidio payroll processing schedule details:
+- Employees are paid semi-monthly (twice a month) on the 15th and the last business day of the month.
+- If the pay date falls on a weekend or bank holiday, payments are processed on the preceding business day.
+- Direct deposits typically post to bank accounts by 9:00 AM on the official pay date.
+- Submit timesheet approvals at least 3 business days before the scheduled pay date.

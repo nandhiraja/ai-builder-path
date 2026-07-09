@@ -1,0 +1,24 @@
+=== IT DEPARTMENT DOCUMENTATION ===
+
+[VPN SETUP INSTRUCTIONS]
+To set up your corporate VPN:
+1. Download the Cisco AnyConnect client from the IT Approved Software Portal.
+2. Open the Cisco AnyConnect app and enter the server address: vpn.presidio.com.
+3. Authenticate using your Single Sign-On (SSO) credentials followed by the Duo Mobile push notification for multi-factor authentication (MFA).
+4. For technical support, contact vpn-support@presidio.com.
+
+[APPROVED SOFTWARE PORTAL]
+Presidio approved software list:
+- Slack (for team communication)
+- Zoom (for video conferencing)
+- VS Code (approved IDE)
+- Google Chrome (standard browser)
+- Docker Desktop (approved for developer environment)
+Unapproved installations (like unauthorized browser extensions or third-party file sharing tools) violate the IT security policy and will trigger automated security alerts.
+
+[HARDWARE REQUEST PROCESS - Laptops & Accessories]
+To request a new laptop or accessories:
+1. Open the internal IT portal at service.presidio.com.
+2. Select "Hardware Requests" and fill out the equipment form.
+3. Standard dev laptops provided are Apple MacBook Pro 16" (M3 Max, 36GB RAM) or Dell Latitude 15".
+4. Requests require manager approval before provisioning. Delivery takes 3-5 business days.
