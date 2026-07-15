@@ -1,0 +1,250 @@
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --background: #f1f5f9;
+    --card: #ffffff;
+    --text: #172033;
+    --muted: #64748b;
+    --border: #dbe3ee;
+    --success-bg: #ecfdf5;
+    --success-text: #047857;
+    --error-bg: #fef2f2;
+    --error-text: #b91c1c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background:
+        radial-gradient(circle at top right, #dbeafe 0%, transparent 32%),
+        linear-gradient(135deg, #eff6ff 0%, var(--background) 55%, #f8fafc 100%);
+}
+
+.page-container {
+    width: min(950px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+.app-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: 0 16px 45px rgba(15, 23, 42, 0.10);
+    overflow: hidden;
+}
+
+.hero {
+    padding: 38px 42px 28px;
+    color: white;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+.tag {
+    margin: 0 0 12px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #bfdbfe;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(28px, 5vw, 42px);
+}
+
+.subtitle {
+    max-width: 700px;
+    margin: 14px 0 0;
+    color: #dbeafe;
+    line-height: 1.6;
+}
+
+.crawl-form,
+.result-section,
+.example-section {
+    padding: 28px 42px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-row {
+    display: flex;
+    gap: 12px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 14px 15px;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px #dbeafe;
+}
+
+button {
+    border: 0;
+    border-radius: 9px;
+    padding: 14px 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+#crawlButton {
+    color: white;
+    background: var(--primary);
+    white-space: nowrap;
+}
+
+#crawlButton:hover:not(:disabled) {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+}
+
+#crawlButton:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.help-text {
+    margin: 10px 0 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.status-box {
+    margin: 0 42px;
+    padding: 13px 15px;
+    border-radius: 9px;
+    font-size: 14px;
+}
+
+.status-box.loading {
+    color: #1e40af;
+    background: #eff6ff;
+}
+
+.status-box.success {
+    color: var(--success-text);
+    background: var(--success-bg);
+}
+
+.status-box.error {
+    color: var(--error-text);
+    background: var(--error-bg);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.result-section {
+    padding-top: 24px;
+}
+
+.result-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.copy-button {
+    padding: 8px 12px;
+    color: #1e3a8a;
+    background: #dbeafe;
+}
+
+.copy-button:hover {
+    background: #bfdbfe;
+}
+
+.result-box {
+    min-height: 280px;
+    margin: 15px 0 0;
+    padding: 18px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: #e2e8f0;
+    background: #0f172a;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.example-section {
+    border-top: 1px solid var(--border);
+    background: #f8fafc;
+}
+
+.example-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.example-button {
+    padding: 10px 13px;
+    color: #334155;
+    border: 1px solid var(--border);
+    background: white;
+}
+
+.example-button:hover {
+    border-color: #93c5fd;
+    color: var(--primary-dark);
+    background: #eff6ff;
+}
+
+@media (max-width: 650px) {
+    .page-container {
+        width: min(100% - 20px, 950px);
+        padding: 16px 0;
+    }
+
+    .hero,
+    .crawl-form,
+    .result-section,
+    .example-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .status-box {
+        margin: 0 20px;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    #crawlButton {
+        width: 100%;
+    }
+}

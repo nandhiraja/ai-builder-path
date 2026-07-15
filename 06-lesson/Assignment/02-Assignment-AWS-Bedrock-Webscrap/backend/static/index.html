@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Bedrock Web Crawler Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="page-container">
+        <section class="app-card">
+            <div class="hero">
+                <p class="tag">AWS BEDROCK AGENTS</p>
+                <h1>Web Crawler Agent</h1>
+                <p class="subtitle">
+                    Enter a public webpage URL. The Bedrock Agent will call
+                    the Lambda scraper and return cleaned webpage text.
+                </p>
+            </div>
+
+            <form id="crawlForm" class="crawl-form">
+                <label for="urlInput">Website URL</label>
+
+                <div class="input-row">
+                    <input
+                        id="urlInput"
+                        type="url"
+                        placeholder="https://example.com"
+                        value="https://example.com"
+                        required
+                    >
+
+                    <button id="crawlButton" type="submit">
+                        <span id="buttonText">Crawl Website</span>
+                    </button>
+                </div>
+
+                <p class="help-text">
+                    Only public HTTP and HTTPS webpages are supported.
+                </p>
+            </form>
+
+            <section id="statusBox" class="status-box hidden">
+                <span id="statusText"></span>
+            </section>
+
+            <section class="result-section">
+                <div class="result-heading">
+                    <h2>Agent Response</h2>
+                    <button id="copyButton" class="copy-button hidden" type="button">
+                        Copy Result
+                    </button>
+                </div>
+
+                <pre id="resultBox" class="result-box">
+Your result will appear here after crawling a website.
+                </pre>
+            </section>
+
+            <section class="example-section">
+                <h3>Try these examples</h3>
+
+                <div class="example-buttons">
+                    <button class="example-button" data-url="https://example.com">
+                        example.com
+                    </button>
+
+                    <button class="example-button" data-url="https://www.iana.org/domains/reserved">
+                        IANA Reserved Domains
+                    </button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

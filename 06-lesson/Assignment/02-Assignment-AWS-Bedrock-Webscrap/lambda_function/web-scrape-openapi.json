@@ -1,0 +1,71 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Web Scraper API",
+    "version": "1.0.0",
+    "description": "A tool that fetches public webpages and returns cleaned plain text."
+  },
+  "paths": {
+    "/scrape": {
+      "post": {
+        "operationId": "web_scrape",
+        "description": "Use this tool whenever the user asks to crawl, scrape, extract, read, summarize, or get content from a public website URL.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "A public website URL starting with http:// or https://."
+                  }
+                },
+                "required": [
+                  "url"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The webpage was fetched and cleaned successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "success": {
+                      "type": "boolean"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "status_code": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "truncated": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "The webpage could not be fetched or the URL was unsafe."
+          }
+        }
+      }
+    }
+  }
+}
